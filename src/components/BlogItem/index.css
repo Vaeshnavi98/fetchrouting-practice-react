@@ -1,0 +1,41 @@
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  border: 2px solid gray;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.item-image {
+  height: 200px;
+  width: 200px;
+  padding-right: 15px;
+}
+
+.avatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+.author-info {
+  display: flex;
+  flex-direction: row;
+}
+.author-name {
+  color: gray;
+  padding-left: 10px;
+}
+
+.item-link {
+  text-decoration: none;
+}
+
+.item-topic {
+  color: grey;
+}
+.item-title {
+  color: black;
+  font-weight: 500;
+}

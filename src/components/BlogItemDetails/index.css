@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+.author-pic {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+}
+
+.author-details {
+  display: flex;
+  flex-direction: row;
+  margin-left: 270px;
+}
+.details-author-name {
+  color: grey;
+  padding-left: 10px;
+}
+.blog-image {
+  height: 300px;
+  width: 500px;
+  margin-left: 270px;
+}
